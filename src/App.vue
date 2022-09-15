@@ -1,13 +1,13 @@
 <template>
   <div id="app">
     <div class="tab">
-  <button class="tablinks" onclick="openCIM(event, 'Status')">Status</button>
-  <button class="tablinks" onclick="openCIM(event, 'Production')">Production</button>
-  <button class="tablinks" onclick="openCIM(event, 'Mould')">Mould</button>
-  <button class="tablinks" onclick="openCIM(event, 'Pour')">Pour</button>
-  <button class="tablinks" onclick="openCIM(event, 'Blabla')">Blabla</button>
-  <input type="text" placeholder="Pattern, date, blabla">
-</div>
+      <button class="tablinks" onclick="openCIM(event, 'Status')">Status</button>
+      <button class="tablinks" onclick="openCIM(event, 'Production')">Production</button>
+      <button class="tablinks" onclick="openCIM(event, 'Mould')">Mould</button>
+      <button class="tablinks" onclick="openCIM(event, 'Pour')">Pour</button>
+      <button class="tablinks" onclick="openCIM(event, 'Blabla')">Blabla</button>
+      <input type="text" placeholder="Pattern, date, blabla">
+    </div>
  
  
     <Status msg="HVADSÅ"/>
@@ -27,7 +27,11 @@ export default {
   name: 'App',
   components: {
     Status, 
-    Production
+    Production,
+    Mould,
+    Pour,
+    Blabla
+
   }
 }
 
